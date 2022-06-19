@@ -1,0 +1,36 @@
+{
+    "violao": {
+        "thumbnail": "violao.png",
+        "name": "violão de 12 cordas",
+        "category": "Cordas",
+        "price": 350
+    },
+    "fender": {
+        "thumbnail": "fender.png",
+        "name": "Fender Strato",
+        "category": "Cordas",
+        "price": 150 
+
+    },
+    "safoxone": {
+        "thumbnail": "saxofone.png",
+        "name": "Saxofone",
+        "category": "Sopros",
+        "price": 550 
+
+    },
+    "conga": {
+        "thumbnail": "congas.png",
+        "name": "Conga Muita Bonita",
+        "category": "Outros",
+        "price": 520 
+
+    },
+    "baixo": {
+        "thumbnail": "baixo.png",
+        "name": "Baixo Top",
+        "category": "Cordas",
+        "price": 920 
+
+    }
+}

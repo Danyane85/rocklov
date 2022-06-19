@@ -1,0 +1,35 @@
+{
+   "empty_name": {
+       "name": "",
+       "email": "papi@yahoo.com",
+       "password": "pwd123"
+    },
+   "empty_email": {
+       "name": "Steve Rogers",
+       "email": "" ,
+       "password": "pwd123"      
+    },
+    "empty_pass": {
+        "name": "Steve Rogers",
+        "email": "stev.v@gmail.com" ,
+        "password": ""    
+    },
+    "Whithout_name": {
+        "email": "stev.v@gmail.com" ,
+        "password": "pwd123"    
+    },
+    "Whithout_email": {
+        "name": "Steve Rogers",
+        "password": "pwd123"    
+    },
+    "Whithout_pass": {
+        "name": "Steve Rogers",
+        "email": "stev.v@gmail.com" 
+           
+    },
+    "wrong_email": {
+        "name": "Steve Rogers",
+        "email": "stev.v&gmail.com" ,
+        "password": "pw123"                    
+    }    
+}

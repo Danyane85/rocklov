@@ -1,0 +1,21 @@
+[
+   {
+      "name": "Steve Rogers",
+      "email": "stever@gmail.com",
+      "password": "1234"
+   },
+
+   {
+    "name": "Remove Rogers",
+    "email": "remove@gmail.com",
+    "password": "1234"
+
+ },
+ {
+    "name": "Mario Rogers",
+    "email": "rogers@gmail.com",
+    "password": "1234"
+
+ }
+
+]

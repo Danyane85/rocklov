@@ -1,14 +1,13 @@
-***Settings***
-Documentation         Implementação da Rota/ sessions
+* Settings *
+Documentation       Implementação da Rota /sessions
 
-***Keywords***
-
+* Keywords *
 POST Login
-    [Arguments]             ${payload}
+    [Arguments]     ${payload}
 
-     ${response}             POST    
-     ...                     ${base_url}/sessions
-     ...                     json=${payload}
-     ...                     expected_status=any
-    
-    [Return]                 ${response}
+    ${response}    POST
+    ...            ${base_url}/sessions 
+    ...            json=${payload}
+    ...            expected_status=any
+
+    [return]        ${response}

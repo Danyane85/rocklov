@@ -1,14 +1,12 @@
-***Settings***
+* Settings *
 
-Library            RequestsLibrary
-Library            libs/mongo.py
+Library    RequestsLibrary
+Library    libs/mongo.py
 
-Resource           routes/Helpers.robot
-Resource           routes/Sessions.robot 
-Resource           routes/Signup.robot 
-Resource           routes/SessionsNectar.robot   
+Resource    Helpers.robot
+Resource    routes/Sessions.robot
+Resource    routes/Signup.robot
+Resource    routes/Equipos.robot
 
-***Variables***
-${base_url}        https://rocklov-dany-api.herokuapp.com
-
-${url_nectar}      http://app.nectarcrm.com.br/crm/api/1
+* Variables *
+${base_url}    https://rocklov-dany-api.herokuapp.com/

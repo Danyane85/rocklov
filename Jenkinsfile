@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Run UI Tests') {
             steps {
-                sh 'cd frontend && robot -d ./logs tests'
+                sh 'cd frontend && robot -d ./logs -v headless:True tests'
             }
         }
         stage('Run API Tests'){

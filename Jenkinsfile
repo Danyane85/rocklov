@@ -13,15 +13,21 @@ pipeline {
                 sh 'rfbrowser init'
             }
         }
+        stage('Run API Tests') {
+            steps {
+                sh 'cd backend && robot -d ./logs tests'
+            }
+        }
         stage('Run UI Tests') {
             steps {
                 sh 'cd frontend && robot -d ./logs -v headless:True tests'
             }
         }
-        stage('Run API Tests'){
-            steps{
-                sh 'cd backend robot -d ./logs tests'
-            }
+    }
+    post {
+        always {
+            robot archiveDirName: 'robot-plugin', logFileName: '**/logs/log.html', otherFiles: '**/logs/**/*.png', outputFileName: '**/logs/output.xml', outputPath: '', overwriteXAxisLabel: '', reportFileName: '**/logs/report.html'
+            chuckNorris()
         }
     }
 }

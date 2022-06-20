@@ -13,14 +13,14 @@ pipeline {
                 sh 'rfbrowser init'
             }
         }
-        stage('Run API Tests') {
-            steps {
-                sh 'cd backend && robot -d ./logs tests'
-            }
-        }
         stage('Run UI Tests') {
             steps {
                 sh 'cd frontend && robot -d ./logs -v headless:True tests'
+            }
+        }
+        stage('Run backand Tests') {
+            steps {
+                sh 'cd backend && robot -d ./logs tests'
             }
         }
     }
